@@ -1,16 +1,23 @@
 {
-  "name": "node-ministack",
-  "version": "0.0.1",
-  "description": "A mini stack with the essentials to start a new NodeJS project.",
+  "name": "placesvisited",
+  "version": "1.0.0",
+  "description": "photo",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.13.4"
-  },
-  "engine": {
-    "node": "*",
-    "npm": "*"
-  },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssavess/placesvisited.git"
+  },
+  "author": "Helder Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssavess/placesvisited/issues"
+  },
+  "homepage": "https://github.com/ssavess/placesvisited#readme",
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
